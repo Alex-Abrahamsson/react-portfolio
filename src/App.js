@@ -1,16 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/home";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Alex hemsida!
-        </p>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="AppContainer">
+        <Header/>
+        <div className="ContentContainer">
+          <Routes>
+            <Route path={"/"} element={<Home />} />
+          </Routes>
+        </div>
+        <Footer/>
+      </div>
+    </BrowserRouter>
   );
 }
 
