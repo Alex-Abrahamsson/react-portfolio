@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import cx from "classnames";
 import style from "./slidingMenu.module.scss";
 import Navbar from "./navBar/navBar";
-import { onClickOutside } from "../../hooks/onClickOutside";
+import { OnClickOutside } from "../../hooks/onClickOutside";
 
 const SlidingMenu = (props) => {
   const { isOpen, onChange } = props;
@@ -13,7 +13,7 @@ const SlidingMenu = (props) => {
     onChange(!isOpen);
   };
 
-  onClickOutside(node, () => onChange(true));
+  OnClickOutside(node, () => onChange(true));
 
   return (
     <div className={style.ContentContainer} ref={node}>
