@@ -1,5 +1,7 @@
+@import '../../styles/variables.scss';
+
 .ContentContainer {
-    width: 980px;
+    width: $max-container-width;
     display: flex;
     justify-content: center;
     color: black;
@@ -11,12 +13,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(32, 0, 32));
+    background-image: linear-gradient(to left, $color-gradient-dark, $color-gradient-light);
 }
 
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: $max-container-width) {
 	.ContentContainer {
         width: 100%;
         padding: 0 16px;

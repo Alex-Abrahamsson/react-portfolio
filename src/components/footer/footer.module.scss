@@ -1,5 +1,8 @@
+@import "../../styles/variables.scss";
+
+
 .ContentContainer {
-  width: 980px;
+  width: $max-container-width;
   display: flex;
   justify-content: center;
 }
@@ -8,8 +11,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: lightgray;
-  background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(32, 0, 32));
+  background-image: linear-gradient(to left, $color-gradient-dark, $color-gradient-light);
 }
 p{
     color:grey;
