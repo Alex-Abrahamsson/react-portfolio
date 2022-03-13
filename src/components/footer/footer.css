@@ -1,0 +1,16 @@
+.ContentContainer {
+  width: 980px;
+  display: flex;
+  justify-content: center;
+}
+
+.FooterContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(32, 0, 32));
+}
+p{
+    color:grey;
+}
