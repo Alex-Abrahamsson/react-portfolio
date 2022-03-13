@@ -5,7 +5,7 @@ import style from "./slidingMenu.module.scss";
 import Navbar from "./navBar/navBar";
 import { onClickOutside } from "../../hooks/onClickOutside";
 
-const slidingMenu = (props) => {
+const SlidingMenu = (props) => {
   const { isOpen, onChange } = props;
   const node = useRef();
 
@@ -40,14 +40,14 @@ const slidingMenu = (props) => {
   );
 };
 
-slidingMenu.propTypes = {
+SlidingMenu.propTypes = {
   isOpen: PropTypes.bool.isRequired,
 
   onChange: PropTypes.func.isRequired,
 };
 
-slidingMenu.defaultProps = {
+SlidingMenu.defaultProps = {
   isOpen: false,
 };
 
-export default slidingMenu;
+export default SlidingMenu;
