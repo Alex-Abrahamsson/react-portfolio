@@ -1,12 +1,17 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 
 import style from "./home.module.scss";
 
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <Container fluid>
+      <Row>
+        <Col>
+          <h1>Home page</h1>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
