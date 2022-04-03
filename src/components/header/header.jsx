@@ -12,10 +12,8 @@ function Header() {
   return (
     <header className={style.HeaderContainer}>
       <div className={style.ContentContainer}>
-        <h1>Alex portfolio</h1>
+        <SlidingMenu isOpen={open} onChange={onChange} />
       </div>
-
-      <SlidingMenu isOpen={open} onChange={onChange} />
     </header>
   );
 }

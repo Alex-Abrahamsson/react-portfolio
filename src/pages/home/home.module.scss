@@ -1,1 +1,94 @@
 @import '../../styles/variables.scss';
+
+.MyNameContainer{
+    display: flex;
+    justify-content: center;
+}
+.BoxBorderDiv{
+    background-color: $color-light;
+    box-shadow: -10px -10px 1px $color-background-dark, -10px -10px 1px 2px $color-light;
+    margin-bottom: 30px;
+    h3{
+        padding: 0 20px 0 20px;
+        margin: 0;
+        text-align: center;
+    }
+    h5{
+        padding: 0 20px 0 20px;
+        margin: 0;
+        text-align: center;
+    }
+    
+}
+.ColoredDiv{
+    background-color: $color-light;
+    margin: 0 0 10px 0;
+}
+.SmallContainerLeft{
+    display: flex;
+    justify-content: right;
+}
+.SmallContainerRight {
+    display: flex;
+    justify-content: left;
+}
+.RightBorderContainer{
+    padding-right: 20px;
+    p{
+        font-size:12px;
+    }
+}
+.LeftBorderContainer{
+    border-left: 2px solid $color-light;
+    padding-left: 20px;
+    p{
+        font-size:12px;
+    }
+}
+.CenteredList{
+    text-align:center;
+    padding: 0 0 15px 0;
+}
+.MyIcons{
+    font-size: 32px;
+    color: $color-light;
+    margin: 0 0 30px 0;
+}
+.SkillListP{
+    margin: 0 0 5px 0;
+}
+.Dot{
+  margin-left: 10px;
+  margin-top: 11px;
+  height: 13px;
+  width: 13px;
+  background-color: #3b3b3b;
+  border-radius: 2px;
+  border: 1px solid $color-light;
+  display: inline-block;
+}
+.FilledDot{
+  margin-left: 10px;
+  margin-top: 11px;
+  height: 13px;
+  width: 13px;
+  background-color: $color-light;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+
+
+em {
+    color: gray;
+}
+strong{
+    padding: 0 5px 0 5px;
+}
+ul{
+    list-style:inside;
+}
+li{ 
+    font-size:12px;
+    color:gray;
+}
