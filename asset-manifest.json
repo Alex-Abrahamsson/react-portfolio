@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.28cff478.css",
-    "main.js": "/react-portfolio/static/js/main.6f1138ff.js",
+    "main.css": "/react-portfolio/static/css/main.d810197f.css",
+    "main.js": "/react-portfolio/static/js/main.9bc1f6de.js",
+    "static/media/GrassIsland.jpg": "/react-portfolio/static/media/GrassIsland.d6ca459d77916af4a6f3.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.28cff478.css.map": "/react-portfolio/static/css/main.28cff478.css.map",
-    "main.6f1138ff.js.map": "/react-portfolio/static/js/main.6f1138ff.js.map"
+    "main.d810197f.css.map": "/react-portfolio/static/css/main.d810197f.css.map",
+    "main.9bc1f6de.js.map": "/react-portfolio/static/js/main.9bc1f6de.js.map"
   },
   "entrypoints": [
-    "static/css/main.28cff478.css",
-    "static/js/main.6f1138ff.js"
+    "static/css/main.d810197f.css",
+    "static/js/main.9bc1f6de.js"
   ]
 }
