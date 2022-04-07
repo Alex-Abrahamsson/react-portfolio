@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import { BsCodeSlash, BsDisplay, BsMusicNoteBeamed, BsHammer, BsGithub, BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 import style from "./home.module.scss";
@@ -8,6 +8,9 @@ function Home() {
   return (
     <Container fluid>
       <Row>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <div className={style.Diamond}></div>
+        </div>
         <div className={style.MyNameContainer}>
           <div className={style.BoxBorderDiv}>
             <h3>Alex Abrahamsson</h3>
@@ -32,6 +35,7 @@ function Home() {
               history.
             </p>
           </Row>
+
           <Row className={style.RightBorderContainer}>
             <div className={style.BoxBorderDiv}>
               <h5>EDUCATION</h5>
@@ -56,12 +60,13 @@ function Home() {
               </li>
             </ul>
           </Row>
+
           <Row className={style.RightBorderContainer}>
             <div className={style.BoxBorderDiv}>
               <h5>SKILLS</h5>
             </div>
           </Row>
-          <Row>
+          <Row className={style.RightBorderContainer}>
             <Col xs={4}>
               <p className={style.SkillListP}>C#</p>
             </Col>
@@ -78,7 +83,7 @@ function Home() {
               <span className={style.Dot}></span>
             </Col>
           </Row>
-          <Row>
+          <Row Row className={style.RightBorderContainer}>
             <Col xs={4}>
               <p className={style.SkillListP}>C++</p>
             </Col>
@@ -95,7 +100,7 @@ function Home() {
               <span className={style.Dot}></span>
             </Col>
           </Row>
-          <Row>
+          <Row Row className={style.RightBorderContainer}>
             <Col xs={4}>
               <p className={style.SkillListP}>HTML</p>
             </Col>
@@ -112,7 +117,7 @@ function Home() {
               <span className={style.Dot}></span>
             </Col>
           </Row>
-          <Row>
+          <Row Row className={style.RightBorderContainer}>
             <Col xs={4}>
               <p className={style.SkillListP}>Css / sCss</p>
             </Col>
@@ -129,7 +134,7 @@ function Home() {
               <span className={style.Dot}></span>
             </Col>
           </Row>
-          <Row>
+          <Row Row className={style.RightBorderContainer}>
             <Col xs={4}>
               <p className={style.SkillListP}>JavaScript</p>
             </Col>
@@ -146,7 +151,7 @@ function Home() {
               <span className={style.Dot}></span>
             </Col>
           </Row>
-          <Row>
+          <Row Row className={style.RightBorderContainer}>
             <Col xs={4}>
               <p className={style.SkillListP}>React</p>
             </Col>
@@ -163,7 +168,7 @@ function Home() {
               <span className={style.Dot}></span>
             </Col>
           </Row>
-          <Row>
+          <Row Row className={style.RightBorderContainer}>
             <Col xs={4}>
               <p className={style.SkillListP}>SQL</p>
             </Col>
@@ -180,7 +185,7 @@ function Home() {
               <span className={style.Dot}></span>
             </Col>
           </Row>
-          <Row>
+          <Row Row className={style.RightBorderContainer}>
             <Col xs={4}>
               <p className={style.SkillListP}>Entity Framework</p>
             </Col>
@@ -197,7 +202,7 @@ function Home() {
               <span className={style.Dot}></span>
             </Col>
           </Row>
-          <Row>
+          <Row Row className={style.RightBorderContainer}>
             <Col xs={4}>
               <p className={style.SkillListP}>Azure</p>
             </Col>
@@ -214,7 +219,7 @@ function Home() {
               <span className={style.Dot}></span>
             </Col>
           </Row>
-          <Row>
+          <Row Row className={style.RightBorderContainer}>
             <Col xs={4}>
               <p className={style.SkillListP}>Unreal Engine</p>
             </Col>
@@ -231,7 +236,7 @@ function Home() {
               <span className={style.Dot}></span>
             </Col>
           </Row>
-          <Row>
+          <Row Row className={style.RightBorderContainer}>
             <Col xs={4}>
               <p className={style.SkillListP}>Unity</p>
             </Col>
@@ -263,6 +268,7 @@ function Home() {
               <li>Website: www.AlexAbrahamsson.com</li>
             </ul>
           </Row>
+
           <Row className={style.LeftBorderContainer}>
             <div className={style.BoxBorderDiv}>
               <h5>EXPERIENCE</h5>
@@ -295,6 +301,7 @@ function Home() {
               </li>
             </ul>
           </Row>
+
           <Row className={style.LeftBorderContainer}>
             <div className={style.BoxBorderDiv}>
               <h5>INTERESTS</h5>
@@ -306,6 +313,7 @@ function Home() {
               <BsHammer className={style.MyIcons} />
             </div>
           </Row>
+
           <Row className={style.LeftBorderContainer}>
             <div className={style.BoxBorderDiv}>
               <h5>SOCIALS</h5>
